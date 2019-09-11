@@ -78,6 +78,20 @@
 	
 }
 
+.parallax .mask-container .mask-left #titulo{
+	margin:320px 20px 100px 130px;
+}
+
+.parallax .mask-container .mask-left #titulo h2{
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.parallax .mask-container .mask-left #titulo p{
+	font-size: 16px;
+	font-weight: normal;
+}
 
 
 
