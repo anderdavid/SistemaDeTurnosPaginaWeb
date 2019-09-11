@@ -117,9 +117,31 @@
 		font-size: 14px;
 	}
 
-	.mask-left{
+	.parallax .mask-container .mask-left{
 		width: 80%;
 	}
+
+	.parallax .mask-container .mask-left #titulo{
+		margin:320px 30px 100px 100px;
+	}
+
+	.parallax .mask-container .mask-left #titulo h2{
+		font-size: 30px;
+	}
+
+	.parallax .mask-container .mask-left #titulo p{
+		font-size: 12px;
+		
+	}
+}
+
+@media (max-width: 1300px){
+	.parallax .mask-container .mask-left #titulo h2{
+		font-size: 30px;
+	}
+
+	.parallax .mask-container .mask-left #titulo p{
+		font-size: 12px;
 }
 
 
