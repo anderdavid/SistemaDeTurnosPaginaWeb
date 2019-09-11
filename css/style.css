@@ -1,25 +1,53 @@
-*{
-	margin:0;
-	padding: 0;
+.mNav{
+
+	background: #e6e9ed;
+	background: -moz-linear-gradient(top, #e6e9ed 0%, #faf9fb 32%, #faf9fb 52%, #fafbfb 73%, #dcd7e0 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #e6e9ed), color-stop(32%, #faf9fb), color-stop(52%, #faf9fb), color-stop(73%, #fafbfb), color-stop(100%, #dcd7e0));
+	background: -webkit-linear-gradient(top, #e6e9ed 0%, #faf9fb 32%, #faf9fb 52%, #fafbfb 73%, #dcd7e0 100%);
+	background: -o-linear-gradient(top, #e6e9ed 0%, #faf9fb 32%, #faf9fb 52%, #fafbfb 73%, #dcd7e0 100%);
+	background: -ms-linear-gradient(top, #e6e9ed 0%, #faf9fb 32%, #faf9fb 52%, #fafbfb 73%, #dcd7e0 100%);
+	background: linear-gradient(to bottom, #e6e9ed 0%, #faf9fb 32%, #faf9fb 52%, #fafbfb 73%, #dcd7e0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e9ed', endColorstr='#dcd7e0', GradientType=0 );
+	margin:auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
-body{
-	background-color: #f4f4f4;
+.mNav .title-container{
+  padding: 10px 10px 10px 10px;
+}
+.mNav .title-container h3{
+	color:#00305B;
+	font-weight: bold;
+	text-transform: uppercase;
+	font:normal normal normal 22px/1.4em 'noticia text',serif;
+}
+.mNav .icon-title-container{
+	margin-top: 10px;
+}
+
+.mNav .menu{
+	display: flex;
+	justify-content:flex-start;
+	padding-top: 10px;
+}
+.menu li{
+	display: flex;
+}
+
+.mNav .menu li a{
+	padding: 10px 10px 10px 10px;
+	color: #0F4C85;
+	text-decoration: none;
+	text-transform: uppercase;
 	
 }
+.mNav .menu li a:hover{
+	color:#1b86eb;
 
-.container{
-	width: 70%;
-	margin:auto;
-	overflow: hidden;
-	padding-top:20rem;
 }
 
-#test{
-	padding: 10px 20px;
-	background-color:#1C5960;
-	color:#fff;
-}
-
-#test:hover{
-	background-color:#1C596034;
+@media (max-width: 900px){
+	.mNav .menu li a{
+		font-size: 14px;
+	}
 }
