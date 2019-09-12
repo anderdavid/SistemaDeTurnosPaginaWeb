@@ -48,8 +48,6 @@
 
 }
 
-
-
 .parallax{
 	position: relative;
 	background: url(../img/background_edificios.JPG) no-repeat fixed;
@@ -140,9 +138,6 @@
 }
 
 
-
-
-
 #caracteristcas .caracteristicas-rigth ul li span{
 	color:#00305B;
 	font-weight: bold;
@@ -204,7 +199,15 @@
 #componentes ul li span{
 	font-weight: bold;
 }
+footer{
+	margin-top: 40px;
+	background-color:#58676B;
+	padding: 25px 40px;
+}
 
+footer p{
+	color:#e4e4e4;
+}
 
 
 
@@ -243,6 +246,14 @@
 
 	.container{
 		width: 95%;
+	}
+
+	footer{
+		padding: 0;
+		padding: 10px 10px;
+	}
+	footer p{
+		font-size: 12px;
 	}
 }
 
