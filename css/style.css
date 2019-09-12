@@ -167,9 +167,7 @@
 	margin: auto; 
 	overflow: hidden;
 	color:#fff;
-	
 	font-size: 22px;
-	
 	padding-bottom: 150px;
 	text-align: center;
 }
@@ -264,6 +262,15 @@ footer p{
 
 	.parallax .mask-container .mask-left #titulo p{
 		font-size: 12px;
+	}
+
+	#caracteristcas .caracteristicas-left{
+		width: 100%;
+		min-height: unset;
+	}
+	#caracteristcas .caracteristicas-rigth{
+		width: 100%;
+	}
 }
 
 
