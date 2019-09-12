@@ -152,6 +152,60 @@
 	color:#0F4C85;
 }
 
+#descripcion{
+	
+	background-color:#00305b;
+	padding-top: 100px;
+	z-index: 500;
+}
+#descripcion h2{
+	color:#E3E1FE;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 300px;
+	margin-bottom: 50px;
+
+}
+#descripcion p{
+	width: 80%;
+	margin: auto; 
+	overflow: hidden;
+	color:#fff;
+	
+	font-size: 22px;
+	
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.container{
+	margin:auto;
+	width: 80%;
+	overflow: hidden;
+	margin-top:2em;
+}
+
+#componentes h1{
+	font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0f4c85;
+}
+
+#componentes ul li{
+	list-style: square;
+	color: #00b6ff;
+}
+#componentes ul li span,#componentes ul li p{
+	color:black;
+}
+
+#componentes ul li span{
+	font-weight: bold;
+}
+
+
 
 
 
@@ -185,6 +239,10 @@
 	}
 	#caracteristcas .caracteristicas-rigth{
 		width: 100%;
+	}
+
+	.container{
+		width: 95%;
 	}
 }
 
